@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A9C1E414C237BD00C39504 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C1E314C237BD00C39504 /* UIKit.framework */; };
+		A7A9C1E614C237BD00C39504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C1E514C237BD00C39504 /* Foundation.framework */; };
+		A7A9C1E814C237BD00C39504 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C1E714C237BD00C39504 /* CoreGraphics.framework */; };
+		A7A9C20014C23B3F00C39504 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C1E314C237BD00C39504 /* UIKit.framework */; };
+		A7A9C20114C23B3F00C39504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C1E514C237BD00C39504 /* Foundation.framework */; };
+		A7A9C20214C23B3F00C39504 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C1E714C237BD00C39504 /* CoreGraphics.framework */; };
+		A7A9C21814C23BA300C39504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C21414C23BA300C39504 /* AppDelegate.m */; };
+		A7A9C21914C23BA300C39504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C21514C23BA300C39504 /* main.m */; };
+		A7A9C21A14C23BA300C39504 /* OPQuartzKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7A9C21614C23BA300C39504 /* OPQuartzKit-Info.plist */; };
+		A7A9C21F14C23BB300C39504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C21B14C23BB300C39504 /* main.m */; };
+		A7A9C22014C23BB300C39504 /* OPQuartzKitTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7A9C21C14C23BB300C39504 /* OPQuartzKitTests-Info.plist */; };
+		A7A9C22114C23BB300C39504 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C21E14C23BB300C39504 /* GHUnitIOS.framework */; };
+		A7A9C22314C23BBA00C39504 /* OPQuartzKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A7A9C22214C23BBA00C39504 /* OPQuartzKit.podspec */; };
+		A7A9C22814C23CE600C39504 /* OPGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C22714C23CE600C39504 /* OPGradient.m */; };
+		A7A9C22A14C23CF300C39504 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C22914C23CF300C39504 /* QuartzCore.framework */; };
+		A7A9C22B14C23D0000C39504 /* OPGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C22714C23CE600C39504 /* OPGradient.m */; };
+		A7A9C22C14C23D0A00C39504 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C22914C23CF300C39504 /* QuartzCore.framework */; };
+		A7A9C23414C2447100C39504 /* Quartz+Opetopic.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C23314C2447100C39504 /* Quartz+Opetopic.m */; };
+		A7A9C23514C2447100C39504 /* Quartz+Opetopic.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C23314C2447100C39504 /* Quartz+Opetopic.m */; };
+		A7A9C23814C2455C00C39504 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C23714C2455C00C39504 /* TestView.m */; };
+		A7A9C23914C2455C00C39504 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C23714C2455C00C39504 /* TestView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7A9C1DF14C237BD00C39504 /* OPQuartzKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPQuartzKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A9C1E314C237BD00C39504 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7A9C1E514C237BD00C39504 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7A9C1E714C237BD00C39504 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7A9C1FE14C23B3F00C39504 /* OPQuartzKitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPQuartzKitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A9C21314C23BA300C39504 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7A9C21414C23BA300C39504 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7A9C21514C23BA300C39504 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7A9C21614C23BA300C39504 /* OPQuartzKit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OPQuartzKit-Info.plist"; sourceTree = "<group>"; };
+		A7A9C21714C23BA300C39504 /* OPQuartzKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OPQuartzKit-Prefix.pch"; sourceTree = "<group>"; };
+		A7A9C21B14C23BB300C39504 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7A9C21C14C23BB300C39504 /* OPQuartzKitTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OPQuartzKitTests-Info.plist"; sourceTree = "<group>"; };
+		A7A9C21D14C23BB300C39504 /* OPQuartzKitTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OPQuartzKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		A7A9C21E14C23BB300C39504 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		A7A9C22214C23BBA00C39504 /* OPQuartzKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OPQuartzKit.podspec; sourceTree = SOURCE_ROOT; };
+		A7A9C22614C23CE600C39504 /* OPGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPGradient.h; sourceTree = "<group>"; };
+		A7A9C22714C23CE600C39504 /* OPGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPGradient.m; sourceTree = "<group>"; };
+		A7A9C22914C23CF300C39504 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A7A9C23214C2447100C39504 /* Quartz+Opetopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Quartz+Opetopic.h"; sourceTree = "<group>"; };
+		A7A9C23314C2447100C39504 /* Quartz+Opetopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Quartz+Opetopic.m"; sourceTree = "<group>"; };
+		A7A9C23614C2455C00C39504 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		A7A9C23714C2455C00C39504 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A9C1DC14C237BD00C39504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A9C1E414C237BD00C39504 /* UIKit.framework in Frameworks */,
+				A7A9C22C14C23D0A00C39504 /* QuartzCore.framework in Frameworks */,
+				A7A9C1E614C237BD00C39504 /* Foundation.framework in Frameworks */,
+				A7A9C1E814C237BD00C39504 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A9C1FB14C23B3F00C39504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A9C22A14C23CF300C39504 /* QuartzCore.framework in Frameworks */,
+				A7A9C20014C23B3F00C39504 /* UIKit.framework in Frameworks */,
+				A7A9C20114C23B3F00C39504 /* Foundation.framework in Frameworks */,
+				A7A9C20214C23B3F00C39504 /* CoreGraphics.framework in Frameworks */,
+				A7A9C22114C23BB300C39504 /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A9C1D414C237BD00C39504 = {
+			isa = PBXGroup;
+			children = (
+				A7A9C1E914C237BD00C39504 /* OPQuartzKit */,
+				A7A9C20314C23B3F00C39504 /* OPQuartzKitTests */,
+				A7A9C1E214C237BD00C39504 /* Frameworks */,
+				A7A9C1E014C237BD00C39504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A9C1E014C237BD00C39504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9C1DF14C237BD00C39504 /* OPQuartzKit.app */,
+				A7A9C1FE14C23B3F00C39504 /* OPQuartzKitTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A9C1E214C237BD00C39504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9C22914C23CF300C39504 /* QuartzCore.framework */,
+				A7A9C1E314C237BD00C39504 /* UIKit.framework */,
+				A7A9C1E514C237BD00C39504 /* Foundation.framework */,
+				A7A9C1E714C237BD00C39504 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A9C1E914C237BD00C39504 /* OPQuartzKit */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9C21214C23BA300C39504 /* Source */,
+				A7A9C22514C23BD000C39504 /* Supporting Files */,
+			);
+			path = OPQuartzKit;
+			sourceTree = "<group>";
+		};
+		A7A9C20314C23B3F00C39504 /* OPQuartzKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9C22414C23BBE00C39504 /* Supporting Files */,
+			);
+			path = OPQuartzKitTests;
+			sourceTree = "<group>";
+		};
+		A7A9C21214C23BA300C39504 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9C22614C23CE600C39504 /* OPGradient.h */,
+				A7A9C22714C23CE600C39504 /* OPGradient.m */,
+				A7A9C23214C2447100C39504 /* Quartz+Opetopic.h */,
+				A7A9C23314C2447100C39504 /* Quartz+Opetopic.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A7A9C22414C23BBE00C39504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9C21B14C23BB300C39504 /* main.m */,
+				A7A9C21C14C23BB300C39504 /* OPQuartzKitTests-Info.plist */,
+				A7A9C21D14C23BB300C39504 /* OPQuartzKitTests-Prefix.pch */,
+				A7A9C21E14C23BB300C39504 /* GHUnitIOS.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7A9C22514C23BD000C39504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7A9C21314C23BA300C39504 /* AppDelegate.h */,
+				A7A9C21414C23BA300C39504 /* AppDelegate.m */,
+				A7A9C23614C2455C00C39504 /* TestView.h */,
+				A7A9C23714C2455C00C39504 /* TestView.m */,
+				A7A9C22214C23BBA00C39504 /* OPQuartzKit.podspec */,
+				A7A9C21514C23BA300C39504 /* main.m */,
+				A7A9C21614C23BA300C39504 /* OPQuartzKit-Info.plist */,
+				A7A9C21714C23BA300C39504 /* OPQuartzKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A9C1DE14C237BD00C39504 /* OPQuartzKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A9C1F714C237BD00C39504 /* Build configuration list for PBXNativeTarget "OPQuartzKit" */;
+			buildPhases = (
+				A7A9C1DB14C237BD00C39504 /* Sources */,
+				A7A9C1DC14C237BD00C39504 /* Frameworks */,
+				A7A9C1DD14C237BD00C39504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPQuartzKit;
+			productName = OPQuartzKit;
+			productReference = A7A9C1DF14C237BD00C39504 /* OPQuartzKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7A9C1FD14C23B3F00C39504 /* OPQuartzKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A9C20F14C23B3F00C39504 /* Build configuration list for PBXNativeTarget "OPQuartzKitTests" */;
+			buildPhases = (
+				A7A9C1FA14C23B3F00C39504 /* Sources */,
+				A7A9C1FB14C23B3F00C39504 /* Frameworks */,
+				A7A9C1FC14C23B3F00C39504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPQuartzKitTests;
+			productName = OPQuartzKitTests;
+			productReference = A7A9C1FE14C23B3F00C39504 /* OPQuartzKitTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A9C1D614C237BD00C39504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A7A9C1D914C237BD00C39504 /* Build configuration list for PBXProject "OPQuartzKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7A9C1D414C237BD00C39504;
+			productRefGroup = A7A9C1E014C237BD00C39504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A9C1DE14C237BD00C39504 /* OPQuartzKit */,
+				A7A9C1FD14C23B3F00C39504 /* OPQuartzKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A9C1DD14C237BD00C39504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A9C21A14C23BA300C39504 /* OPQuartzKit-Info.plist in Resources */,
+				A7A9C22314C23BBA00C39504 /* OPQuartzKit.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A9C1FC14C23B3F00C39504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A9C22014C23BB300C39504 /* OPQuartzKitTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A9C1DB14C237BD00C39504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A9C21814C23BA300C39504 /* AppDelegate.m in Sources */,
+				A7A9C21914C23BA300C39504 /* main.m in Sources */,
+				A7A9C22814C23CE600C39504 /* OPGradient.m in Sources */,
+				A7A9C23414C2447100C39504 /* Quartz+Opetopic.m in Sources */,
+				A7A9C23814C2455C00C39504 /* TestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A9C1FA14C23B3F00C39504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A9C21F14C23BB300C39504 /* main.m in Sources */,
+				A7A9C22B14C23D0000C39504 /* OPGradient.m in Sources */,
+				A7A9C23514C2447100C39504 /* Quartz+Opetopic.m in Sources */,
+				A7A9C23914C2455C00C39504 /* TestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7A9C1F514C237BD00C39504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7A9C1F614C237BD00C39504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A9C1F814C237BD00C39504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPQuartzKit/OPQuartzKit-Prefix.pch";
+				INFOPLIST_FILE = "OPQuartzKit/OPQuartzKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7A9C1F914C237BD00C39504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPQuartzKit/OPQuartzKit-Prefix.pch";
+				INFOPLIST_FILE = "OPQuartzKit/OPQuartzKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A7A9C21014C23B3F00C39504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OPQuartzKitTests\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPQuartzKitTests/OPQuartzKitTests-Prefix.pch";
+				INFOPLIST_FILE = "OPQuartzKitTests/OPQuartzKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7A9C21114C23B3F00C39504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OPQuartzKitTests\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OPQuartzKitTests/OPQuartzKitTests-Prefix.pch";
+				INFOPLIST_FILE = "OPQuartzKitTests/OPQuartzKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A9C1D914C237BD00C39504 /* Build configuration list for PBXProject "OPQuartzKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A9C1F514C237BD00C39504 /* Debug */,
+				A7A9C1F614C237BD00C39504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A9C1F714C237BD00C39504 /* Build configuration list for PBXNativeTarget "OPQuartzKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A9C1F814C237BD00C39504 /* Debug */,
+				A7A9C1F914C237BD00C39504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7A9C20F14C23B3F00C39504 /* Build configuration list for PBXNativeTarget "OPQuartzKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A9C21014C23B3F00C39504 /* Debug */,
+				A7A9C21114C23B3F00C39504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A9C1D614C237BD00C39504 /* Project object */;
+}
