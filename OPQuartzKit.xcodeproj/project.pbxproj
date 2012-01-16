@@ -210,6 +210,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Opetopic;
 			};
 			buildConfigurationList = A7A9C1D914C237BD00C39504 /* Build configuration list for PBXProject "OPQuartzKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -404,6 +405,7 @@
 				A7A9C1F914C237BD00C39504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7A9C20F14C23B3F00C39504 /* Build configuration list for PBXNativeTarget "OPQuartzKitTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +414,7 @@
 				A7A9C21114C23B3F00C39504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
