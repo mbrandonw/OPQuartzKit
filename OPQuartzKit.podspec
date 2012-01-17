@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
   s.license  = 'MIT'
   
   s.summary  = 'OPQuartzKit'
-  s.homepage = 'https://brandonwilliams.beanstalkapp.com/opquartzkit'
+  s.homepage = 'https://github.com/mbrandonw/OPQuartzKit'
   s.author   = { 'Brandon Williams' => 'brandon@opetopic.com' }
-  s.source   = { :git => 'git@brandonwilliams.beanstalkapp.com:/opquartzkit.git' }
+  s.source   = { :git => 'git@github:mbrandonw/OPQuartzKit.git' }
   
-  s.source_files = 'Source/**/*.{h,m}'
+  s.source_files = 'OPQuartzKit/Source/**/*.{h,m}'
   
   s.frameworks = 'QuartzCore'
   
