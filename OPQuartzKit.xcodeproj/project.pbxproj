@@ -43,7 +43,7 @@
 		A7A9C21C14C23BB300C39504 /* OPQuartzKitTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OPQuartzKitTests-Info.plist"; sourceTree = "<group>"; };
 		A7A9C21D14C23BB300C39504 /* OPQuartzKitTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OPQuartzKitTests-Prefix.pch"; sourceTree = "<group>"; };
 		A7A9C21E14C23BB300C39504 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
-		A7A9C22214C23BBA00C39504 /* OPQuartzKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OPQuartzKit.podspec; sourceTree = SOURCE_ROOT; };
+		A7A9C22214C23BBA00C39504 /* OPQuartzKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; indentWidth = 2; path = OPQuartzKit.podspec; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7A9C22614C23CE600C39504 /* OPGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPGradient.h; sourceTree = "<group>"; };
 		A7A9C22714C23CE600C39504 /* OPGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPGradient.m; sourceTree = "<group>"; };
 		A7A9C22914C23CF300C39504 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };

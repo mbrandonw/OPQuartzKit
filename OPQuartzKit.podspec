@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'git@github:mbrandonw/OPQuartzKit.git' }
   
   s.source_files = 'OPQuartzKit/Source/**/*.{h,m}'
+  s.requires_arc = true
   
   s.frameworks = 'QuartzCore'
   
