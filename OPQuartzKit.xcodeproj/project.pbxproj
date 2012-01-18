@@ -15,11 +15,9 @@
 		A7A9C20214C23B3F00C39504 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C1E714C237BD00C39504 /* CoreGraphics.framework */; };
 		A7A9C21814C23BA300C39504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C21414C23BA300C39504 /* AppDelegate.m */; };
 		A7A9C21914C23BA300C39504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C21514C23BA300C39504 /* main.m */; };
-		A7A9C21A14C23BA300C39504 /* OPQuartzKit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7A9C21614C23BA300C39504 /* OPQuartzKit-Info.plist */; };
 		A7A9C21F14C23BB300C39504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C21B14C23BB300C39504 /* main.m */; };
 		A7A9C22014C23BB300C39504 /* OPQuartzKitTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7A9C21C14C23BB300C39504 /* OPQuartzKitTests-Info.plist */; };
 		A7A9C22114C23BB300C39504 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C21E14C23BB300C39504 /* GHUnitIOS.framework */; };
-		A7A9C22314C23BBA00C39504 /* OPQuartzKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A7A9C22214C23BBA00C39504 /* OPQuartzKit.podspec */; };
 		A7A9C22814C23CE600C39504 /* OPGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C22714C23CE600C39504 /* OPGradient.m */; };
 		A7A9C22A14C23CF300C39504 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A9C22914C23CF300C39504 /* QuartzCore.framework */; };
 		A7A9C22B14C23D0000C39504 /* OPGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C22714C23CE600C39504 /* OPGradient.m */; };
@@ -53,6 +51,7 @@
 		A7A9C23314C2447100C39504 /* Quartz+Opetopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Quartz+Opetopic.m"; sourceTree = "<group>"; };
 		A7A9C23614C2455C00C39504 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		A7A9C23714C2455C00C39504 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		CAAE538114C73198006DC713 /* OPQuartzKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPQuartzKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +131,7 @@
 		A7A9C21214C23BA300C39504 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				CAAE538114C73198006DC713 /* OPQuartzKit.h */,
 				A7A9C22614C23CE600C39504 /* OPGradient.h */,
 				A7A9C22714C23CE600C39504 /* OPGradient.m */,
 				A7A9C23214C2447100C39504 /* Quartz+Opetopic.h */,
@@ -235,8 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A9C21A14C23BA300C39504 /* OPQuartzKit-Info.plist in Resources */,
-				A7A9C22314C23BBA00C39504 /* OPQuartzKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
