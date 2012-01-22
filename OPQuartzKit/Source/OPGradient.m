@@ -15,7 +15,7 @@
 
 @implementation OPGradient
 
-@synthesize CGGradient;
+@synthesize CGGradient = _CGGradient;
 
 +(id) gradientWithColors:(NSArray *)colors {
     
@@ -104,8 +104,8 @@
     if (g != self.CGGradient)
     {
         if (self.CGGradient)
-            CGGradientRelease(self.CGGradient);
-        CGGradient = CGGradientRetain(g);
+            CGGradientRelease(_CGGradient);
+        _CGGradient = CGGradientRetain(g);
     }
 }
 
@@ -114,10 +114,10 @@
 #pragma mark -
 
 -(void) dealloc {
-    if (CGGradient)
+    if (_CGGradient)
     {
-        CGGradientRelease(CGGradient);
-        CGGradient = NULL;
+        CGGradientRelease(_CGGradient);
+        _CGGradient = NULL;
     }
 }
 
