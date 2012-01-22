@@ -22,3 +22,4 @@ CGPoint CGRectRightCenter(CGRect r);
 
 CGPoint CGPointIntegral(CGPoint p);
 
+BOOL CGSizeIsPowerOfTwo(CGSize size);

@@ -26,6 +26,7 @@
 		A7A9C23514C2447100C39504 /* Quartz+Opetopic.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C23314C2447100C39504 /* Quartz+Opetopic.m */; };
 		A7A9C23814C2455C00C39504 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C23714C2455C00C39504 /* TestView.m */; };
 		A7A9C23914C2455C00C39504 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A9C23714C2455C00C39504 /* TestView.m */; };
+		A7DA392614CCD11500E4B5BA /* QuartzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DA392514CCD11500E4B5BA /* QuartzTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		A7A9C23314C2447100C39504 /* Quartz+Opetopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Quartz+Opetopic.m"; sourceTree = "<group>"; };
 		A7A9C23614C2455C00C39504 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		A7A9C23714C2455C00C39504 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		A7DA392514CCD11500E4B5BA /* QuartzTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzTests.m; sourceTree = "<group>"; };
 		CAAE538114C73198006DC713 /* OPQuartzKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPQuartzKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 		A7A9C20314C23B3F00C39504 /* OPQuartzKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				A7DA392514CCD11500E4B5BA /* QuartzTests.m */,
 				A7A9C22414C23BBE00C39504 /* Supporting Files */,
 			);
 			path = OPQuartzKitTests;
@@ -269,6 +272,7 @@
 				A7A9C22B14C23D0000C39504 /* OPGradient.m in Sources */,
 				A7A9C23514C2447100C39504 /* Quartz+Opetopic.m in Sources */,
 				A7A9C23914C2455C00C39504 /* TestView.m in Sources */,
+				A7DA392614CCD11500E4B5BA /* QuartzTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

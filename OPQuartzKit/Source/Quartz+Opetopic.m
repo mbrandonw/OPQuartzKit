@@ -47,3 +47,10 @@ CGPoint CGRectRightCenter(CGRect r) {
 CGPoint CGPointIntegral(CGPoint p) {
     return CGPointMake(roundf(p.x), roundf(p.y));
 }
+
+BOOL CGSizeIsPowerOfTwo(CGSize size) {
+    
+    NSUInteger w = (NSUInteger)roundf(size.width);
+    NSUInteger h = (NSUInteger)roundf(size.height);
+    return w>0 && h>0 && (w & (w-1)) == 0 && (h & (h-1)) == 0;
+}
