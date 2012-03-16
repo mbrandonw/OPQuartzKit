@@ -15,6 +15,10 @@ CATransform3D CATransform3DMakePerspective(CGFloat d) {
     return t;
 }
 
+CATransform3D CATransform3DApplyPerspective(CATransform3D t, CGFloat d) {
+    return CATransform3DConcat(t, CATransform3DMakePerspective(d));
+}
+
 CGRect CGRectTranslate(CGRect r, CGFloat tx, CGFloat ty) {
     return CGRectMake(r.origin.x+tx, r.origin.y+ty, r.size.width, r.size.height);
 }
