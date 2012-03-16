@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 
+#define CGPointMax  CGPointMake(MAXFLOAT, MAXFLOAT)
+
 CATransform3D CATransform3DMakePerspective(CGFloat d);
 CATransform3D CATransform3DApplyPerspective(CATransform3D t, CGFloat d);
 
