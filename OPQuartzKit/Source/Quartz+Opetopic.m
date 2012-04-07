@@ -27,7 +27,7 @@ CGRect CGRectInsetEdges(CGRect r, UIEdgeInsets inset) {
     return CGRectMake(r.origin.x+inset.left, r.origin.y+inset.top, r.size.width-inset.left-inset.right, r.size.height-inset.top-inset.bottom);
 }
 
-CGPoint CGRectCenter(CGRect r) {
+CGPoint CGRectCenterPoint(CGRect r) {
     return CGPointMake(r.origin.x + r.size.width/2.0f, r.origin.y + r.size.height/2.0f);
 }
 

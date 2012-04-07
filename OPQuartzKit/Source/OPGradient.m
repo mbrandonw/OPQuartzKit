@@ -79,9 +79,9 @@
     
     [self fillRectRadially:rect 
                    options:options
-                startPoint:CGRectCenter(rect)
+                startPoint:CGRectCenterPoint(rect)
                startRadius:0.0f 
-                  endPoint:CGRectCenter(rect) 
+                  endPoint:CGRectCenterPoint(rect) 
                  endRadius:MAX(rect.size.width, rect.size.height)/2.0f];
 }
 
