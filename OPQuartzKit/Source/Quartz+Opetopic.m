@@ -48,6 +48,10 @@ CGPoint CGRectRightCenter(CGRect r) {
     return CGPointMake(r.origin.x + r.size.width, r.origin.y + r.size.height/2.0f);
 }
 
+CGSize CGSizeInsetEdges(CGSize size, UIEdgeInsets inset) {
+    return CGSizeMake(size.width-inset.left-inset.right, size.height-inset.top-inset.bottom);
+}
+
 CGPoint CGPointIntegral(CGPoint p) {
     return CGPointMake(roundf(p.x), roundf(p.y));
 }

@@ -23,6 +23,8 @@ CGPoint CGRectBottomCenter(CGRect r);
 CGPoint CGRectLeftCenter(CGRect r);
 CGPoint CGRectRightCenter(CGRect r);
 
+CGSize CGSizeInsetEdges(CGSize size, UIEdgeInsets inset);
+
 CGPoint CGPointIntegral(CGPoint p);
 
 BOOL CGSizeIsPowerOfTwo(CGSize size);
