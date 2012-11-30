@@ -15,7 +15,7 @@ CATransform3D CATransform3DMakePerspective(CGFloat d);
 CATransform3D CATransform3DApplyPerspective(CATransform3D t, CGFloat d);
 
 CGRect CGRectTranslate(CGRect r, CGFloat tx, CGFloat ty);
-CGRect CGRectInsetEdges(CGRect r, UIEdgeInsets inset);
+CGRect CGRectInsetEdges(CGRect r, CGFloat top, CGFloat left, CGFloat bottom, CGFloat right);
 
 CGPoint CGRectCenterPoint(CGRect r);
 CGPoint CGRectTopCenter(CGRect r);

@@ -23,8 +23,8 @@ CGRect CGRectTranslate(CGRect r, CGFloat tx, CGFloat ty) {
     return CGRectMake(r.origin.x+tx, r.origin.y+ty, r.size.width, r.size.height);
 }
 
-CGRect CGRectInsetEdges(CGRect r, UIEdgeInsets inset) {
-    return CGRectMake(r.origin.x+inset.left, r.origin.y+inset.top, r.size.width-inset.left-inset.right, r.size.height-inset.top-inset.bottom);
+CGRect CGRectInsetEdges(CGRect r, CGFloat top, CGFloat left, CGFloat bottom, CGFloat right) {
+    return CGRectMake(r.origin.x+left, r.origin.y+top, r.size.width-left-right, r.size.height-top-bottom);
 }
 
 CGPoint CGRectCenterPoint(CGRect r) {
