@@ -28,3 +28,6 @@ CGSize CGSizeInsetEdges(CGSize size, UIEdgeInsets inset);
 CGPoint CGPointIntegral(CGPoint p);
 
 BOOL CGSizeIsPowerOfTwo(CGSize size);
+CGSize CGSizeRound(CGSize size);
+CGSize CGSizeFloor(CGSize size);
+CGSize CGSizeCeil(CGSize size);

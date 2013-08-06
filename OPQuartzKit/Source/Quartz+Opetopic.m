@@ -62,3 +62,15 @@ BOOL CGSizeIsPowerOfTwo(CGSize size) {
     NSUInteger h = (NSUInteger)roundf(size.height);
     return w>0 && h>0 && (w & (w-1)) == 0 && (h & (h-1)) == 0;
 }
+
+CGSize CGSizeRound(CGSize size) {
+  return CGSizeMake(roundf(size.width), roundf(size.height));
+}
+
+CGSize CGSizeFloor(CGSize size) {
+  return CGSizeMake(floorf(size.width), floorf(size.height));
+}
+
+CGSize CGSizeCeil(CGSize size) {
+  return CGSizeMake(ceilf(size.width), ceilf(size.height));
+}
