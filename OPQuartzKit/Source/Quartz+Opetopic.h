@@ -11,6 +11,11 @@
 
 #define CGPointMax  CGPointMake(MAXFLOAT, MAXFLOAT)
 
+/**
+ Pixel measurement of an "atom", i.e. 1 for non-retina, 0.5 for retina.
+ */
+#define CGAtom      (1.0f/[[UIScreen mainScreen] scale])
+
 CATransform3D CATransform3DMakePerspective(CGFloat d);
 CATransform3D CATransform3DApplyPerspective(CATransform3D t, CGFloat d);
 
