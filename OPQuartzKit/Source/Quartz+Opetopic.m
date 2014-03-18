@@ -56,6 +56,10 @@ CGPoint CGPointIntegral(CGPoint p) {
     return CGPointMake(roundf(p.x), roundf(p.y));
 }
 
+CGPoint CGPointAdd(CGPoint a, CGPoint b) {
+  return CGPointMake(a.x+b.x, a.y+b.y);
+}
+
 BOOL CGSizeIsPowerOfTwo(CGSize size) {
     
     NSUInteger w = (NSUInteger)roundf(size.width);

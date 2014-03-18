@@ -31,6 +31,7 @@ CGPoint CGRectRightCenter(CGRect r);
 CGSize CGSizeInsetEdges(CGSize size, UIEdgeInsets inset);
 
 CGPoint CGPointIntegral(CGPoint p);
+CGPoint CGPointAdd(CGPoint a, CGPoint b);
 
 BOOL CGSizeIsPowerOfTwo(CGSize size);
 CGSize CGSizeRound(CGSize size);
