@@ -32,6 +32,9 @@ CGSize CGSizeInsetEdges(CGSize size, UIEdgeInsets inset);
 
 CGPoint CGPointIntegral(CGPoint p);
 CGPoint CGPointAdd(CGPoint a, CGPoint b);
+CGPoint CGPointSubtract(CGPoint a, CGPoint b);
+CGPoint CGPointNormalize(CGPoint p);
+CGFloat CGPointLength(CGPoint p);
 
 BOOL CGSizeIsPowerOfTwo(CGSize size);
 CGSize CGSizeRound(CGSize size);

@@ -60,6 +60,22 @@ CGPoint CGPointAdd(CGPoint a, CGPoint b) {
   return CGPointMake(a.x+b.x, a.y+b.y);
 }
 
+CGPoint CGPointSubtract(CGPoint a, CGPoint b) {
+  return CGPointMake(a.x - b.x, a.y - b.y);
+}
+
+CGPoint CGPointNormalize(CGPoint p) {
+  CGFloat length = CGPointLength(p);
+  if (length == 0.0f) {
+    return CGPointZero;
+  }
+  return CGPointMake(p.x / length, p.y / length);
+}
+
+CGFloat CGPointLength(CGPoint p) {
+  return sqrtf(p.x * p.x + p.y * p.y);
+}
+
 BOOL CGSizeIsPowerOfTwo(CGSize size) {
     
     NSUInteger w = (NSUInteger)roundf(size.width);
