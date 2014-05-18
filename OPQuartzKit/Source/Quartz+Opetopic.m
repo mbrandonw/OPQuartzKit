@@ -19,6 +19,19 @@ CATransform3D CATransform3DApplyPerspective(CATransform3D t, CGFloat d) {
     return CATransform3DConcat(t, CATransform3DMakePerspective(d));
 }
 
+CGAffineTransform UIInterfaceOrientationToAffineTransform(UIInterfaceOrientation orientation) {
+  switch (orientation) {
+    case UIInterfaceOrientationPortrait:
+      return CGAffineTransformIdentity;
+    case UIInterfaceOrientationPortraitUpsideDown:
+      return CGAffineTransformMake(-1.0f, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f);
+    case UIInterfaceOrientationLandscapeLeft:
+      return CGAffineTransformMake(0.0f, -1.0f, 1.0f, 0.0f, 0.0f, 0.0f);
+    case UIInterfaceOrientationLandscapeRight:
+      return CGAffineTransformMake(0.0f, 1.0f, -1.0f, 0.0f, 0.0f, 0.0f);
+  }
+}
+
 CGRect CGRectTranslate(CGRect r, CGFloat tx, CGFloat ty) {
     return CGRectMake(r.origin.x+tx, r.origin.y+ty, r.size.width, r.size.height);
 }

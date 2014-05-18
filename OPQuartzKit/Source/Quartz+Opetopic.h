@@ -18,6 +18,7 @@
 
 CATransform3D CATransform3DMakePerspective(CGFloat d);
 CATransform3D CATransform3DApplyPerspective(CATransform3D t, CGFloat d);
+CGAffineTransform UIInterfaceOrientationToAffineTransform(UIInterfaceOrientation orientation);
 
 CGRect CGRectTranslate(CGRect r, CGFloat tx, CGFloat ty);
 CGRect CGRectInsetEdges(CGRect r, CGFloat top, CGFloat left, CGFloat bottom, CGFloat right);
