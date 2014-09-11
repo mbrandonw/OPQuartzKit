@@ -22,6 +22,7 @@ CATransform3D CATransform3DApplyPerspective(CATransform3D t, CGFloat d) {
 CGAffineTransform UIInterfaceOrientationToAffineTransform(UIInterfaceOrientation orientation) {
   switch (orientation) {
     case UIInterfaceOrientationPortrait:
+    case UIInterfaceOrientationUnknown:
       return CGAffineTransformIdentity;
     case UIInterfaceOrientationPortraitUpsideDown:
       return CGAffineTransformMake(-1.0f, 0.0f, 0.0f, -1.0f, 0.0f, 0.0f);
