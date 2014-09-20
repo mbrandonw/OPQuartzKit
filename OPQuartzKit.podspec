@@ -1,16 +1,11 @@
-Pod::Spec.new do |s|
-  s.name     = 'OPQuartzKit'
-  s.version  = '1.0.0'
-  s.license  = 'MIT'
-  
-  s.summary  = 'OPQuartzKit'
-  s.homepage = 'https://github.com/mbrandonw/OPQuartzKit'
-  s.author   = { 'Brandon Williams' => 'brandon@opetopic.com' }
-  s.source   = { :git => 'git@github:mbrandonw/OPQuartzKit.git' }
-  
-  s.source_files = 'OPQuartzKit/Source/**/*.{h,m}'
-  s.requires_arc = true
-  
-  s.frameworks = 'QuartzCore'
-  
+Pod::Spec.new do |spec|
+  spec.name         = 'OPQuartzKit'
+  spec.version      = '0.1.0'
+  spec.license      = { type: 'BSD' }
+  spec.homepage     = 'https://github.com/mbrandonw/OPQuartzKit'
+  spec.authors      = { 'Brandon Williams' => 'mbw234@gmail.com' }
+  spec.summary      = ''
+  spec.source       = { :git => 'https://github.com/mbrandonw/OPQuartzKit.git' }
+  spec.source_files = 'OPQuartzKit/*.{h,m}'
+  spec.requires_arc = true
 end
