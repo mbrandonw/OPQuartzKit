@@ -6,6 +6,6 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Brandon Williams' => 'mbw234@gmail.com' }
   spec.summary      = ''
   spec.source       = { :git => 'https://github.com/mbrandonw/OPQuartzKit.git' }
-  spec.source_files = 'OPQuartzKit/*.{h,m}'
+  spec.source_files = 'OPQuartzKit/Source/*.{h,m}'
   spec.requires_arc = true
 end
