@@ -90,6 +90,10 @@ CGFloat CGPointLength(CGPoint p) {
   return sqrtf(p.x * p.x + p.y * p.y);
 }
 
+CGFloat CGPointDistance(CGPoint p1, CGPoint p2) {
+  return CGPointLength(CGPointMake(p1.x - p2.x, p1.y - p2.y));
+}
+
 BOOL CGSizeIsPowerOfTwo(CGSize size) {
     
     NSUInteger w = (NSUInteger)roundf(size.width);

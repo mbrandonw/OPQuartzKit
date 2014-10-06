@@ -36,6 +36,7 @@ CGPoint CGPointAdd(CGPoint a, CGPoint b);
 CGPoint CGPointSubtract(CGPoint a, CGPoint b);
 CGPoint CGPointNormalize(CGPoint p);
 CGFloat CGPointLength(CGPoint p);
+CGFloat CGPointDistance(CGPoint p1, CGPoint p2);
 
 BOOL CGSizeIsPowerOfTwo(CGSize size);
 CGSize CGSizeRound(CGSize size);
